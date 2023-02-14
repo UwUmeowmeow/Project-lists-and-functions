@@ -6,8 +6,8 @@ while True:
 
     print("Welcome")
     try:
-        check_option = int(input("Check in (1)\nCheck out (2)"
-                                 "\nExit (0)\nCalculate Costs (3)"
+        check_option = int(input("Exit (0)\nCheck in (1)"
+                                 "\nCheck out (2)\nCalculate Costs (3)"
                                  "\nPrint roll (4)\nYour option: "))
     except ValueError:
         print("Error please type a number")
@@ -32,7 +32,7 @@ while True:
 
     elif check_option == 4:
         for thing in children:
-            print(thing)
+            print(f"- {thing}")
 
 
 
