@@ -28,7 +28,7 @@ while True:
             break
 
     elif check_option == 3:
-        print(f"Your charge is {len(children) * 12}")
+        print(f"Your charge is ${len(children) * 12}")
 
     elif check_option == 4:
         for thing in children:
